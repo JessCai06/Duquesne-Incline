@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hours & Fare</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/about.css">
+    <link rel="stylesheet" href="../static/index.css">
+    <link rel="stylesheet" href="../static/more_info.css">
+    <script src="../static/script.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Jacques+Francois+Shadow&family=Kaisei+Tokumin&family=Maname&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../static/DuqInclineLogo (red).png" alt="Duquesne Incline Logo">
+                <div class="title">
+                    <h1>DUQUESNE</h1>
+                    <h1>INCLINE</h1>
+                    <p>serving Pittsburgh since 1877.</p>
+                </div>
+            </div>
+        </a>
+        <nav class="navpage">
+            <ul>
+                <li><a href="/views/hours.html">hours & fare</a></li>
+                <li><a href="/views/transport.html">getting here</a></li>
+                <li><a href="/views/about.html">about</a></li>
+                <li><a href="/views/more.html">more info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="subpage">
+        <h1>About</h1>
+
+        <div class="carousel-container">
+            <button class="carousel-btn left" onclick="prevSlide_v()">&#10094;</button>
+        
+            <div class="carousel-slide">
+                <img id="carousel-image" src="../static/visitor slides/slide1.jpg" alt="Incline View">
+            </div>
+        
+            <button class="carousel-btn right" onclick="nextSlide_v()">&#10095;</button>
+        </div>
+
+        <section class="info-section">
+
+            <!-- FAQ -->
+            <div class="row-header" style="border-bottom: 0;">
+                <strong>Frequently Asked Questions<br><br></strong>
+                <button class="toggle-btn" aria-label="Toggle section" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                <div class="info-row" style="border-top: 10px;">
+                    <strong>Fare & Accessibility Information</strong>
+                    <div>
+                        <p>
+                            The Duquesne Incline operates on an exact cash fare system. There are no tickets, reservations,
+                            advance payments, or credit/debit card options. The incline is part of Pittsburgh’s public
+                            transportation system
+                            and uses the same fare structure as buses and trolleys.
+                        </p>
+                        <p>
+                            A change machine is availableat the station to assist passengers. Having the exact fare ready
+                            will speed up boarding.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="info-row">
+                    <strong>Senior Discounts</strong>
+                    <div>
+                        <p>
+                            Pennsylvania residents aged 65 and older ride free when presenting a BLUE or YELLOW
+                            PRT card or a Senior ConnectCard.
+                        </p>
+                        <p>
+                            To receive this discount, passengers must provide a valid Pennsylvania Senior Citizen Transit ID
+                            card — no exceptions — as required for reimbursement by the Commonwealth of Pennsylvania.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="info-row">
+                    <strong>Accessibility</strong>
+                    <div>
+                        <p>
+                            The Upper Station located at 1220 Grandview Ave, Pittsburgh, PA 15211 is
+                            wheelchair accessible.
+                            The observation deck is also accessible to all visitors.
+                        </p>
+                        <p>
+                            The Historic Incline cars can accommodate wheelchairs up to 25 inches in width.
+                            Please note that there are many steps to traverse at the Lower Station parking lot.
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="info-row" style="border-bottom: 0;">
+                    <strong>Additional Visitor Info</strong>
+                    <div>
+                        <ul>
+                            <li>The Duquesne Incline has served Pittsburgh since 1877, operating like a traditional
+                                trolley or San Francisco’s cable cars.</li>
+                            <li>Restrooms are not available at the station.</li>
+                            <li>Weekends after noon are typically the busiest times. Expect wait times of approximately
+                                10 minutes in both directions.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+            <!-- facts -->
+                <div class="row-header">
+                    <strong>Fun Facts</strong>
+                    <button class="toggle-btn" aria-label="Toggle section" onclick="toggleSection(this)">▼</button>
+                </div>
+                <div class="content">
+                    <ul>
+                        <li>Opened to Public: May 20, 1877</li>
+                        <li>Cost to Build: $47,000 Length of Track: 794 feet</li>
+                        <li>Elevation: 400 feet</li>
+                        <li>Grade: 30.5 degrees</li>
+                        <li>Speed: 6 miles per hour</li>
+                        <li>Passenger: Capacity 18 per car</li>
+                    </ul>
+                </div>
+                <br>
+          <!-- history -->
+            <div class="row-header">
+                <strong>Early History</strong>
+                <button class="toggle-btn" aria-label="Toggle section" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                    <p>The Duquesne Incline is one of those which follows very closely the tracks of an early coal hoist. Old newspapers
+                    indicate the existence of such a conveyance as early as 1854. Residents apparently referred to it as "Kirk Lewis'
+                    incline" and located it on the present site of The Duquesne Incline's Upper Station. Grandview Avenue was then the High
+                    Street, and the area was just beginning to be converted from farmland to homesites. This pleasantly-situated acreage was
+                    an excellent area to absorb some of the expanding population of the city, but the problem of easy access was still to be
+                    solved.
+                    <br><br>
+                    Although plans for a freight and passenger incline are known to have existed much earlier, financial backing was
+                    exceedingly hard to find--even the modest sum of $47,000--and actual construction was delayed. Eventually, of course,
+                    difficulties were overcome and the Incline was built. It was opened to the public May 20, 1877. The Duquesne Incline was
+                    the first Pittsburgh incline designed and built by Samuel Diescher, for Kirk Bigham and Associates. Mr. Diescher, an
+                    engineer, had become the country's foremost builder of inclines. He was also to design and build most of those that
+                    followed.
+                    <br><br>
+                    At the time of its public opening, it was one of four inclined planes serving the summit of Coal Hill, which later came
+                    to be known as Mount Washington. The Duquesne Incline was operated, from 1877 until 1962 by The Duquesne Inclined Plane
+                    Company. From 1964 until the present, the Incline has been operated by the Society for the Preservation of The Duquesne
+                    Heights Incline; it has been owned by the Port Authority of Allegheny County.
+                    <br><br></p>
+                </div>
+            </div>
+
+            <!-- video -->
+            <div class="info-row">
+                <div class="content">
+                    <iframe height="500" width="800" src="https://www.youtube.com/embed/ve3KMUIlSGk"></iframe>
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- Mailing List Signup -->
+        <section class="mailing-list">
+            <div class="stacked-heading">
+                <h2 style="text-align: left; font-size: 50px; font-family: Jacques Francois Shadow;">Join Our <br>Mailing
+                    <br>List</h2>
+        
+            </div>
+            <form action="javascript: validate();">
+                <label id="name_field">Name</label>
+                <input id="name_input_contact" type="text" required>
+        
+                <label id="email_field">Email</label>
+                <input id="email_input_contact" type="email" name="email" required>
+        
+                <label id="email_field">Phone Number</label>
+                <input type="tel" required>
+        
+                <label for="text">Zip Code</label>
+                <input type="text" required>
+        
+                <label>
+                    <input type="checkbox"> I would like to receive messages via SMS text (optional)
+                </label>
+                <div style="text-align: center;">
+                    <span id="validate_message"></span>
+                </div>
+                <input type="submit" value="Submit" class="button_submit" onclick="validate()">
+            </form>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h1>DUQUESNE</h1>
+                <h1>INCLINE</h1>
+                <p class="footer-links">
+                    <a href="../index.html">Home</a> / <a href="/views/hours.html">Hours & Fare</a> / <a
+                        href="/views/transport.html">Getting There</a> / <a href="/views/about.html">About</a> / <a
+                        href="/views/more.html">More</a>
+                </p>
+                <p class="copyright">copyright © 2025</p>
+            </div>
+            <div class="footer-right">
+                <p><strong>Phone Number:</strong> 412.381.1665</p>
+                <p><strong>Fax:</strong> 412.381.1943</p>
+                <p><a href="mailto:duq.incline@duquesneincline.org">duq.incline@duquesneincline.org</a></p>
+                <p><strong>Mailing Address and Wheelchair Accessibility:</strong><br>
+                    1220 Grandview Ave.<br>
+                    Pittsburgh, PA. 15211
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

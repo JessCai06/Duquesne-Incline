@@ -1,0 +1,116 @@
+/* Reset & Base Styles */
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #4a2c24;
+    /* Soft brown tone similar to the text */
+    background-color: #fff;
+}
+
+/* Hero Image Section */
+.hero-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+}
+
+/* Quick Access Section */
+.quick-access {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
+.quick-access h2 {
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    color: #7b2e1e;
+}
+
+.quick-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 cards per row */
+    gap: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quick-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.quick-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* Overlay Button */
+.quick-card button {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    font-family: 'Georgia', serif;
+    color: #4a2c24;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+}
+
+.quick-card:hover {
+    transform: scale(1.05);
+    background-color: #B55F51;
+    color:#fff;
+}
+
+.quick-card:hover h2 {
+    color: white;
+}
+
+/* Overview Section */
+.overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem 2rem;
+    background-color: #f9f4f0;
+}
+
+.overview-text {
+    flex: 1;
+    min-width: 300px;
+    padding: 1rem;
+    max-width: 600px;
+}
+
+.overview-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #7b2e1e;
+}
+
+.overview-text p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.overview-img {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.overview-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

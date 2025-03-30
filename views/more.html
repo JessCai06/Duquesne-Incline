@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More Information</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <link rel="stylesheet" href="../static/more_info.css">
+    <link rel="stylesheet" href="../static/about.css">
+    <script src="../static/script.js" defer></script>
+    <script async src="//www.instagram.com/embed.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital@0;1&family=Jacques+Francois+Shadow&family=Kaisei+Tokumin&family=Maname&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="../index.html">
+            <div class="logo">
+                <img src="../static/DuqInclineLogo (red).png" alt="Duquesne Incline Logo">
+                <div class="title">
+                    <h1>DUQUESNE</h1>
+                    <h1>INCLINE</h1>
+                    <p>serving Pittsburgh since 1877.</p>
+                </div>
+            </div>
+        </a>
+        <nav class="navpage">
+            <ul>
+                <li><a href="/views/hours.html">hours & fare</a></li>
+                <li><a href="/views/transport.html">getting here</a></li>
+                <li><a href="/views/about.html">about</a></li>
+                <li><a href="/views/more.html">more info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="subpage">
+        <h1>More Information</h1>
+        
+        <h2>Gift Shop Offerings</h2>
+        <div class="carousel-container">
+            <button class="carousel-btn left" onclick="prevSlide_g()">&#10094;</button>
+        
+            <div class="carousel-slide">
+                <img id="carousel-image-gift" src="../static/gift slides/slide1.jpg" alt="Incline View">
+            </div>
+        
+            <button class="carousel-btn right" onclick="nextSlide_g()">&#10095;</button>
+        </div>
+
+        <h2>Duquesne Incline Weather</h2>
+        <div id="weather-info">Fetching weather...</div>
+
+        <section class="review-section">
+            <h2>See Reviews On Instagram</h2>
+                    <div style="display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;">
+                        <div style="flex: 1 1 45%; min-width: 326px; max-width: 540px;">
+                            <blockquote class="instagram-media" 
+                                data-instgrm-permalink="https://www.instagram.com/p/DHgjGjmRRvk/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                <div style="padding:16px;"> <a
+                                        href="https://www.instagram.com/p/DHgjGjmRRvk/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                        target="_blank">
+                                        <div style=" display: flex; flex-direction: row; align-items: center;">
+                                            <div
+                                                style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                            </div>
+                                            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding: 19% 0;"></div>
+                                        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px"
+                                                viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                                xmlns:xlink="https://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                        <g>
+                                                            <path
+                                                                d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg></div>
+                                        <div style="padding-top: 8px;">
+                                            <div
+                                                style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                                View this post on Instagram</div>
+                                        </div>
+                                        <div style="padding: 12.5% 0;"></div>
+                                        <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                            <div>
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                                </div>
+                                                <div
+                                                    style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                                </div>
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                                </div>
+                                            </div>
+                                            <div style="margin-left: 8px;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                                </div>
+                                                <div
+                                                    style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                                </div>
+                                            </div>
+                                            <div style="margin-left: auto;">
+                                                <div
+                                                    style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                                </div>
+                                                <div
+                                                    style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                            </div>
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <p
+                                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                        <a href="https://www.instagram.com/p/DHgjGjmRRvk/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                            target="_blank">A post shared by Ks. (@bree_jamaika)</a></p>
+                                </div>
+                            </blockquote>
+                        </div>
+                        <div style="flex: 1 1 45%; min-width: 326px; max-width: 540px;">
+                            <blockquote class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/p/DHUsYwkMApg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                data-instgrm-version="14"
+                                style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);">
+                                <div style="padding:16px;"> <a
+                                        href="https://www.instagram.com/p/DHUsYwkMApg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                        style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;"
+                                        target="_blank">
+                                        <div style=" display: flex; flex-direction: row; align-items: center;">
+                                            <div
+                                                style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;">
+                                            </div>
+                                            <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="padding: 19% 0;"></div>
+                                        <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px"
+                                                viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg"
+                                                xmlns:xlink="https://www.w3.org/1999/xlink">
+                                                <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                    <g transform="translate(-511.000000, -20.000000)" fill="#000000">
+                                                        <g>
+                                                            <path
+                                                                d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631">
+                                                            </path>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </svg></div>
+                                        <div style="padding-top: 8px;">
+                                            <div
+                                                style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">
+                                                View this post on Instagram</div>
+                                        </div>
+                                        <div style="padding: 12.5% 0;"></div>
+                                        <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;">
+                                            <div>
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);">
+                                                </div>
+                                                <div
+                                                    style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;">
+                                                </div>
+                                                <div
+                                                    style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);">
+                                                </div>
+                                            </div>
+                                            <div style="margin-left: 8px;">
+                                                <div
+                                                    style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;">
+                                                </div>
+                                                <div
+                                                    style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)">
+                                                </div>
+                                            </div>
+                                            <div style="margin-left: auto;">
+                                                <div
+                                                    style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);">
+                                                </div>
+                                                <div
+                                                    style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);">
+                                                </div>
+                                                <div
+                                                    style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;">
+                                            <div
+                                                style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;">
+                                            </div>
+                                            <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;">
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <p
+                                        style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;">
+                                        <a href="https://www.instagram.com/p/DHUsYwkMApg/?utm_source=ig_embed&amp;utm_campaign=loading"
+                                            style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;"
+                                            target="_blank">A post shared by Valerie Lang (@skullfishy)</a></p>
+                                </div>
+                            </blockquote>
+                        </div>
+                    </div>
+            
+            <h2>Reviews for the Incline</h2>
+                <ul>
+                    <li><a href="https://nohomejustroam.com/riding-duquesne-incline-pittsburgh-pa/" target="_blank">No Home Just
+                            Roam: Riding the Duquesne Incline</a></li>
+                    <li><a href="https://www.visitpittsburgh.com/blog/how-to-ride-the-pittsburgh-inclines/"
+                            target="_blank">VisitPittsburgh Blog: How to Ride the Inclines</a></li>
+                    <li><a href="https://www.viator.com/Pittsburgh-attractions/Duquesne-Incline/d22639-a21677 "
+                            target="_blank">Viator Review</a></li>
+                    <li><a href="https://www.yelp.com/biz/duquesne-incline-pittsburgh" target="_blank">Yelp Review Page</a></li>
+                </ul>
+        </section>
+
+
+        <!-- content -->
+        <h2>City Tours</h2>
+        
+        <section class="info-section">
+            <table>
+                <thead>
+                    <tr style="justify-content: left; align-items: start;">
+                        <th>Company</th>
+                        <th>Website</th>
+                        <th>Phone Number</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pittsburgh Tours and More</td>
+                        <td><a href="https://www.pghtoursandmore.net" target="_blank">www.pghtoursandmore.net</a></td>
+                        <td>412-323-4707</td>
+                    </tr>
+                    <tr>
+                        <td>Molly's Trolleys</td>
+                        <td><a href="https://www.mollystrolleyspgh.com" target="_blank">www.mollystrolleyspgh.com</a></td>
+                        <td>412-281-2055</td>
+                    </tr>
+                    <tr>
+                        <td>Rivers of Steel</td>
+                        <td><a href="https://www.riversofsteel.com" target="_blank">www.riversofsteel.com</a></td>
+                        <td>
+                            412-464-4020<br>
+                            412-381-8687
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>The Pittsburgh Tour Company</td>
+                        <td><a href="https://www.pghtours.com" target="_blank">www.pghtours.com</a></td>
+                        <td>412-381-8687</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <br><br>
+        
+        <!-- content -->
+        <h2>Things To Do After Your Incline Visit</h2>
+        
+        <section class="info-section">
+        
+            <!-- Dining on Grandview -->
+            <div class="row-header">
+                <strong style="font-size: 28px; font-weight: lighter;">Dining on Grandview Avenue</strong>
+                <button class="toggle-btn" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://w.steelmillsaloon.com" target="_blank">Steel Mill Saloon</a> – (412) 586-4926</li>
+                    <li><a href="http://www.thegrandviewsaloon.com" target="_blank">Coal Hill Steakhouse</a> – (412) 431-1400
+                    </li>
+                    <li><a href="https://www.lemontpittsburgh.com" target="_blank">LeMont Restaurant</a> – (412) 431-3100</li>
+                    <li><a href="https://www.montereybayfishgrotto.com" target="_blank">Monterey Bay Fish Grotto</a> – (412)
+                        381-1919</li>
+                </ul>
+            </div>
+        
+            <!-- Station Square -->
+            <div class="row-header">
+                <strong style="font-size: 28px; font-weight: lighter;">Station Square</strong>
+                <button class="toggle-btn" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.hardrock.com/pittsburgh" target="_blank">Hard Rock Cafe</a> – (412) 481-7625</li>
+                    <li><a href="https://www.gatewayclipper.com" target="_blank">Gateway Clipper Fleet</a> – (412) 355-7993</li>
+                    <li><a href="https://www.mollystrolleyspittsburgh.com" target="_blank">Molly's Trolleys</a> – (412) 281-2085
+                    </li>
+                    <li><a href="https://segwaypittsburgh.com/" target="_blank">Segway in Paradise</a> – (412) 337-3941</li>
+                </ul>
+            </div>
+        
+            <!-- North Shore -->
+            <div class="row-header">
+                <strong style="font-size: 28px; font-weight: lighter;">North Shore Attractions</strong>
+                <button class="toggle-btn" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.theriverscasino.com" target="_blank">Rivers Casino</a> – (412) 231-7777</li>
+                    <li><a href="https://www.pittsburghpirates.com" target="_blank">PNC Park</a> – (412) 321-BUCS</li>
+                    <li><a href="https://www.carnegiesciencecenter.org" target="_blank">Carnegie Science Center</a> – (412)
+                        237-3336</li>
+                    <li><a href="https://www.warhol.org" target="_blank">Andy Warhol Museum</a> – (412) 237-8300</li>
+                </ul>
+            </div>
+        
+            <!-- Downtown Attractions -->
+            <div class="row-header">
+                <strong style="font-size: 28px; font-weight: lighter;">Downtown Pittsburgh</strong>
+                <button class="toggle-btn" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.downtownpittsburgh.com/market-square" target="_blank">Market Square</a></li>
+                    <li><a href="https://www.bikepittsburgh.com" target="_blank">Golden Triangle Bike Rental</a> – (412)
+                        600-0675</li>
+                    <li><a href="https://www.ppgpaintsarena.com" target="_blank">PPG Paints Arena</a> – (412) 642-1800</li>
+                    <li><a href="https://www.heinzhistorycenter.org" target="_blank">Senator John Heinz History Center</a> –
+                        (412) 454-6000</li>
+                </ul>
+            </div>
+        
+            <!-- Sites of Interest -->
+            <div class="row-header">
+                <strong style="font-size: 28px; font-weight: lighter;">Sites of Interest</strong>
+                <button class="toggle-btn" onclick="toggleSection(this)">▼</button>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><a href="https://www.visitpittsburgh.com" target="_blank">Visit Pittsburgh</a> – (800) 359-0758</li>
+                    <li><a href="https://www.popularpittsburgh.com" target="_blank">Popular Pittsburgh</a> – (800) 231-4788</li>
+                    <li><a href="https://www.nationalaviary.org" target="_blank">National Aviary</a> – (412) 323-7235</li>
+                    <li><a href="https://www.pittsburghkids.org" target="_blank">Children's Museum</a> – (412) 322-5058</li>
+                </ul>
+            </div>       
+        </section>
+   
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-left">
+                <h1>DUQUESNE</h1>
+                <h1>INCLINE</h1>
+                <p class="footer-links">
+                    <a href="../index.html">Home</a> / <a href="/views/hours.html">Hours & Fare</a> / <a
+                        href="/views/transport.html">Getting There</a> / <a href="/views/about.html">About</a> / <a
+                        href="/views/more.html">More</a>
+                </p>
+                <p class="copyright">copyright © 2025</p>
+            </div>
+            <div class="footer-right">
+                <p><strong>Phone Number:</strong> 412.381.1665</p>
+                <p><strong>Fax:</strong> 412.381.1943</p>
+                <p><a href="mailto:duq.incline@duquesneincline.org">duq.incline@duquesneincline.org</a></p>
+                <p><strong>Mailing Address and Wheelchair Accessibility:</strong><br>
+                    1220 Grandview Ave.<br>
+                    Pittsburgh, PA. 15211
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
